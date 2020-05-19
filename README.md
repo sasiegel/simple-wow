@@ -1,5 +1,5 @@
 # Simple WoW
-> A simple dueling environment resembling World of Warcraft for testing RL algorithms.
+> A simple dueling environment for testing RL algorithms that resembles World of Warcraft.
 
 There are a number of environments ready for testing RL algorithms (OpenAI Gym)
 that already exist. I thought it might be fun to create an environment that 
