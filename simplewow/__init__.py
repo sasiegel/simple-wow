@@ -1,2 +1,2 @@
-from classes import *
-from env import *
+from .classes import *
+from .env import *

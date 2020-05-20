@@ -18,7 +18,7 @@ class Mage(Hero):
         self.basic_dmg -= 2
         self.actions = (self.basic_attack, self.fireblast)
 
-    def fireblast(self, target):
+    def fireblast(self, target: Hero):
         if self.mana >= 20:
             print('kapow!')
             self.mana -= 20
@@ -32,7 +32,7 @@ class Paladin(Hero):
         self.hp += 10
         self.mana -= 30
         self.basic_dmg += 8
-        self.abilities = (self.basic_attack, self.crusader_strike)
+        self.actions = (self.basic_attack, self.crusader_strike)
     def crusader_strike(self, target: Hero):
         if self.mana >= 20:
             print('kapow!')
